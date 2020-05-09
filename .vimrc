@@ -1,4 +1,10 @@
-" http://vimdoc.sourceforge.net/htmldoc/starting.html#vimrc
+call plug#begin('~/.vim/plugged') " junegunn/vim-plug
+
+Plug 'dracula/vim', {'as': 'dracula'}
+
+call plug#end() " required
+
+colorscheme dracula
 
 set nocompatible        " use vim defaults
 set scrolloff=3         " keep 3 lines when scrolling
@@ -19,7 +25,6 @@ set visualbell t_vb=    " turn off error beep/flash
 set novisualbell        " turn off visual bell
 
 set backspace=indent,eol,start  " make that backspace key work the way it should
-set runtimepath=$VIMRUNTIME     " turn off user scripts, https://github.com/igrigorik/vimgolf/issues/129
 
 syntax on               " turn syntax highlighting on by default
 filetype on             " detect type of file

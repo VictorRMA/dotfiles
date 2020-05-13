@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged') " junegunn/vim-plug
 
-Plug 'dracula/vim', {'as': 'dracula'}
+Plug 'dracula/vim', {'as': 'dracula'}	" dracula-theme
+Plug 'tpope/vim-endwise'		" end certain structures automatically
 
 call plug#end() " required
 

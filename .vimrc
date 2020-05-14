@@ -10,10 +10,12 @@ colorscheme dracula
 set nocompatible        " use vim defaults
 set scrolloff=3         " keep 3 lines when scrolling
 set ai                  " set auto-indenting on for programming
+set encoding=utf-8      " Encoding
 
 set showcmd             " display incomplete commands
 set nobackup            " do not keep a backup file
 set number              " show line numbers
+set relativenumber      " show relative line numbers
 set ruler               " show the current row and column
 
 set hlsearch            " highlight searches
@@ -22,10 +24,13 @@ set showmatch           " jump to matches when entering regexp
 set ignorecase          " ignore case when searching
 set smartcase           " no ignorecase if Uppercase char present
 
-set visualbell t_vb=    " turn off error beep/flash
+set visualbell          " turn off error beep/flash
 set novisualbell        " turn off visual bell
 
+set mouse=a             " enable mouse for scrolling and resizing
+
 set backspace=indent,eol,start  " make that backspace key work the way it should
+set expandtab           " Convert tabs to spaces
 
 syntax on               " turn syntax highlighting on by default
 filetype on             " detect type of file

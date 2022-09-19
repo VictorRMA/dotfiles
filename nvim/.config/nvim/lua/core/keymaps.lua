@@ -19,6 +19,7 @@ vim.g.mapleader = ' '
 
 -- map Esc to jk
 map('i', 'jk', '<Esc>')
+map('i', 'kj', '<Esc>')
 
 -- fast saving with <leader> and w
 map('n', '<leader>w', ':w<cr>')

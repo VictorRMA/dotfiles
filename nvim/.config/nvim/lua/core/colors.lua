@@ -4,8 +4,8 @@ if not status_ok then
 end
 
 vim.opt.background = "dark"
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme kanagawa]])
 
 require('lualine').setup{
-  options = { theme  = 'gruvbox' },
+  options = { theme  = 'kanagawa' },
 }

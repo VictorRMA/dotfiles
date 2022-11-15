@@ -27,6 +27,7 @@ opt.expandtab = true		-- Convert tabs to spaces
 opt.shiftwidth = 2		  -- Shift 2 spaces when tab
 opt.tabstop = 2			    -- 1 tab == 2 spaces
 opt.smartindent = true  -- Autoindent new lines
+opt.wrap = false        -- prevent wrap lines
 
 -- search
 opt.ignorecase = true		-- ignore case when searching

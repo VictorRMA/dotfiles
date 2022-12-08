@@ -17,3 +17,7 @@ map('i', 'jk', '<Esc>')
 map('n', '<leader>w', ':w<cr>')
 
 map('n', '<leader>pv', ':Lex<cr>')
+
+map('n', 'Y', 'yg$')
+map('n', '<C-u>', '<C-u>zz')
+map('n', '<C-d>', '<C-d>zz')

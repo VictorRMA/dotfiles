@@ -13,6 +13,7 @@ return require('packer').startup(function(use)
   use "rebelot/kanagawa.nvim" --colorscheme
 
   use { 'nvim-telescope/telescope.nvim', tag = '0.1.x', }
+  use { "nvim-telescope/telescope-file-browser.nvim" }
 
   -- lsp
   use "neovim/nvim-lspconfig"

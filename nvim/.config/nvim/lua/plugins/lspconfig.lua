@@ -87,7 +87,7 @@ return {
       ["elixirls"] = function()
         lspconfig["elixirls"].setup({
           capabilities = capabilities,
-          cmd = { "/home/victor/elixir-ls/language_server.sh" }
+          cmd = { '/home/victor/.local/share/nvim/mason/packages/elixir-ls/language_server.sh' }
         })
       end,
       ["emmet_ls"] = function()

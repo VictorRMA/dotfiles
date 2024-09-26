@@ -21,3 +21,6 @@ map('n', '<leader>pv', ':Lex<cr>')
 map('n', 'Y', 'yg$')
 map('n', '<C-u>', '<C-u>zz')
 map('n', '<C-d>', '<C-d>zz')
+
+map('n', '<c-l>', '<cmd>bn<cr>')
+map('n', '<c-h>', '<cmd>bp<cr>')

@@ -39,6 +39,5 @@ vim.cmd[[
   augroup END
 ]]
 
-g.netrw_preview   = 1
-g.netrw_liststyle = 3
-g.netrw_winsize   = 30
+g.loaded_netrw = 1
+g.loaded_netrwPlugin = 1
